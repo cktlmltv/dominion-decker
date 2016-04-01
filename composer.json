@@ -4,17 +4,17 @@
             "type": "package",
             "package": {
                 "name": "cktlmltv/dominion-decker",
-                "version": "dev-master",
+                "version": "dev",
                 "source": {
                     "url": "git://github.com/cktlmltv/dominion-decker.git",
                     "type": "git",
-                    "reference": "master"
-                },
-                "require": {
-                    "j4mie/idiorm": "dev-master",
-                    "cktlmltv/dominion-decker": "dev-master"
+                    "reference": "dev"
                 }
+            },
+            "require": {
+                "cktlmltv/dominion-decker": "develop"
             }
+
         }
     ],
     "autoload": {
