@@ -9,10 +9,6 @@
                     "url": "git://github.com/cktlmltv/dominion-decker.git",
                     "type": "git",
                     "reference": "master"
-                },
-                "require": {
-                    "j4mie/idiorm": "dev-master",
-                    "cktlmltv/dominion-decker": "dev-master"
                 }
             }
         }
@@ -24,6 +20,7 @@
     },
     "require": {
         "j4mie/idiorm": "^1.5",
-        "slim/slim": "^3.0"
+        "slim/slim": "^3.0",
+        "cktlmltv/dominion-decker": "dev-master"
     }
 }
