@@ -8,11 +8,11 @@
                 "source": {
                     "url": "git://github.com/cktlmltv/dominion-decker.git",
                     "type": "git",
-                    "reference": "dev"
+                    "reference": "develop"
                 }
             },
             "require": {
-                "cktlmltv/dominion-decker": "develop"
+                "cktlmltv/dominion-decker": "dev"
             }
 
         }
