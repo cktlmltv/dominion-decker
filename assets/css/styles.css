@@ -1,0 +1,131 @@
+.row-cards{
+    display: inline-block
+}
+.deck .cards-cont{
+    position: relative;
+    float:left;
+    text-align: center;
+    width: 18%;
+    margin: 1%;
+}
+.deck .cards-cont .badge{
+    top: 5px;
+    position: absolute;
+    display: block;
+    right: 5px;
+    font-size: 20px;
+}
+.desc{
+    font-size: 12px;
+}
+.desc p{
+    margin: 0 0 10px;
+    display: block;
+    width: 30%;
+}
+.desc hr{
+    width: 10%;
+    margin-left:10%;
+}
+.row-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+}
+.col-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+}
+.col-top {
+    vertical-align: top;
+}
+.col-middle {
+    vertical-align: middle;
+}
+.col-bottom {
+    vertical-align: bottom;
+}
+.badge{
+    color : white !important;
+}
+.panel-footer .panel-danger{
+    font-weight: bold;
+}
+
+/** dominio color **/
+.dominion-text-action{
+    color : #efeed9 !important;
+}
+.dominion-bg-action{
+    background:   #efeed9 !important;
+}
+.dominion-border-action{
+    border-color:   #efeed9 !important;
+}
+.dominion-text-attack{
+    color : #ee2419 !important;
+}
+.dominion-bg-attack{
+    background:   #ee2419 !important;
+}
+.dominion-border-attack{
+    border-color:   #ee2419 !important;
+}
+.dominion-text-reaction{
+    color : #4a8fae;
+}
+.dominion-bg-reaction{
+    background:   #4a8fae !important;
+}
+.dominion-border-reaction{
+    border-color:   #4a8fae !important;
+}
+.dominion-text-tresor{
+    color : #ead16d !important;
+}
+.dominion-bg-tresor{
+    background:   #ead16d !important;
+}
+.dominion-border-tresor{
+    border-color:   #ead16d !important;
+}
+.dominion-text-duration{
+    color : #f68849 !important;
+}
+.dominion-bg-duration{
+    background:   #f68849 !important;
+}
+.dominion-border-duration{
+    border-color:   #f68849 !important;
+}
+.dominion-text-victory{
+    color : #5b9e5b !important;
+}
+.dominion-bg-victory{
+    background:   #5b9e5b !important;
+}
+.dominion-border-victory{
+    border-color:   #5b9e5b !important;
+}
+
+@media (max-width: 1100px) {
+    .deck .cards-cont{
+        position: relative;
+        float:left;
+        text-align: center;
+        width: 31%;
+        margin: 1%;
+    } 
+}
+@media (max-width: 768px) {
+    .deck .cards-cont{
+        position: relative;
+        float:left;
+        text-align: center;
+        width: 48%;
+        margin: 1%;
+    } 
+}
+

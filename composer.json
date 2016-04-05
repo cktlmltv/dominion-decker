@@ -1,26 +1,10 @@
 {
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "cktlmltv/dominion-decker",
-                "version": "dev",
-                "source": {
-                    "url": "git://github.com/cktlmltv/dominion-decker.git",
-                    "type": "git",
-                    "reference": "develop"
-                }
-            },
-            "require": {
-                "cktlmltv/dominion-decker": "dev"
-            }
-
-        }
-    ],
     "autoload": {
         "psr-4": {
-            "App\\Models\\": "App/Models/"
+            "App\\Models\\": "App/Models/",
+            "App\\Classes\\": "App/Classes/"
         }
+        
     },
     "require": {
         "j4mie/idiorm": "^1.5",
