@@ -28,16 +28,19 @@ require __DIR__ . '/../Tpl/header.php';
             <h4>Sélectionne tes extensions : (ou pas)</h4>
             <div class="btn-group-vertical center-block" data-toggle="buttons">
                 <label class="btn btn-default dominion-text-attack">
-                    <input name="prefs" type="checkbox" autocomplete="off" value="attaque">Attaque / Reaction
+                    <input name="prefs" type="checkbox" autocomplete="off" value="Attack">Attaque
+                </label>
+                <label class="btn btn-default dominion-text-reaction">
+                    <input name="prefs" type="checkbox" autocomplete="off" value="Reaction">Reaction
                 </label>
                 <label class="btn btn-default dominion-text-tresor">
-                    <input name="prefs" type="checkbox" autocomplete="off" value="tresor">Trésor
+                    <input name="prefs" type="checkbox" autocomplete="off" value="Treasure">Trésor
                 </label>
                 <label class="btn btn-default dominion-text-duration">
-                    <input name="prefs" type="checkbox" autocomplete="off" value="duration">Durée
+                    <input name="prefs" type="checkbox" autocomplete="off" value="Duration">Durée
                 </label>
                 <label class="btn btn-default dominion-text-victory">
-                    <input name="prefs" type="checkbox" autocomplete="off" value="victory">Victoire
+                    <input name="prefs" type="checkbox" autocomplete="off" value="Victory">Victoire
                 </label>
             </div>
             <br>
